@@ -1,0 +1,18 @@
+{
+  "catppuccin": { "branch": "main", "commit": "31fcfb02c47952d5c75aec893b93b2878abe5fbb" },
+  "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
+  "cmp-cmdline": { "branch": "main", "commit": "d250c63aa13ead745e3a40f61fdd3470efde3923" },
+  "cmp-nvim-lsp": { "branch": "main", "commit": "39e2eda76828d88b773cc27a3f61d2ad782c922d" },
+  "cmp-nvim-ultisnips": { "branch": "main", "commit": "404401792ec62d51ca2e8c279a81996082c2f937" },
+  "cmp-path": { "branch": "main", "commit": "91ff86cd9c29299a64f968ebb45846c485725f23" },
+  "kanagawa.nvim": { "branch": "master", "commit": "7735b2147ee6d223e43287044caa4fb070bdfa3d" },
+  "lazy.nvim": { "branch": "main", "commit": "a1fffe18f9355030fbb483156c762f50f5e0db73" },
+  "mason.nvim": { "branch": "main", "commit": "0950b15060067f752fde13a779a994f59516ce3d" },
+  "nvim-cmp": { "branch": "main", "commit": "a110e12d0b58eefcf5b771f533fc2cf3050680ac" },
+  "nvim-lspconfig": { "branch": "master", "commit": "95b2fc427353e42318c974d10685d500441b821b" },
+  "nvim-treesitter": { "branch": "master", "commit": "3e535e826da265748b875b18dbfb361bd1a1701c" },
+  "oil.nvim": { "branch": "master", "commit": "65c53dbe4f2140236590a7568a5f22a77d16be39" },
+  "plenary.nvim": { "branch": "master", "commit": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683" },
+  "telescope.nvim": { "branch": "master", "commit": "d90956833d7c27e73c621a61f20b29fdb7122709" },
+  "ultisnips": { "branch": "master", "commit": "49dc8cb2086db19d385791c8e1635723b0fd95c7" }
+}

@@ -1,0 +1,31 @@
+# confirm before executing command (interactive mode -i)
+alias mv="mv -i"
+alias rm="rm -i"
+
+# color ls output
+alias ls="ls -G"
+
+# let fd find files from hidden directories
+alias fd="fd -H"
+
+#make c compiler use brew version
+#alias gcc='gcc-12'
+# alias g++='g++-12'
+
+# make c++ compiler use std11
+# alias g++="g++ -std=c++11"
+
+alias dt="cd ~/Desktop/"
+alias config="cd ~/.config"
+alias ts="cd ~/Desktop/techsur/"
+alias sd="cd \$(fzf)"
+#alias sd="cd $(fzf)"
+# to make the macos use gcc from brew by default we have 3 options:
+# add path of hombrew before system path
+# add symbolic links
+# add aliases
+#
+# I have chosen option 1 since I dont have to worry about version changes
+
+# This is for managing dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

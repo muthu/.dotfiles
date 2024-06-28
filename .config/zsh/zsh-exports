@@ -1,0 +1,8 @@
+export FZF_DEFAULT_OPTS=" --layout=reverse --info=inline --height=40% --multi"
+export FZF_DEFAULT_COMMAND="fd -H . $HOME"
+#export PATH=/opt/homebrew/bin/:$PATH
+
+#not including histfile here since I already added to .zshrc file
+#export HISTFILE=~/.config/zsh/.zsh_history
+export HISTFILESIZE=1000000000
+export HISTSIZE=1000000000
