@@ -3,6 +3,10 @@ return {
     lazy = false,
     config = function()
         require("oil").setup({
+            keymaps = {
+                ["<C-h>"] = false,
+                ["<C-l>"] = false
+            },
             view_options = {
                 -- Show files and directories that start with "."
                 show_hidden = true,
@@ -25,5 +29,8 @@ return {
                 },
             },
         })
+
+        -- Open parent directory of current file in a Oil buffer
+        vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
     end,
 }
