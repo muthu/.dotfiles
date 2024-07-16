@@ -113,7 +113,7 @@ return {
             -- end
             -- illuminate.on_attach(client)
         end
-        
+
         local servers = {
             "lua_ls",
             "clangd",
@@ -124,7 +124,7 @@ return {
 
         -- add any mason settings if needed
         local settings = {
-            
+
         }
 
         require("mason").setup(settings)
