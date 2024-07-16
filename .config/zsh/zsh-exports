@@ -6,3 +6,6 @@ export FZF_DEFAULT_COMMAND="fd -H . $HOME"
 #export HISTFILE=~/.config/zsh/.zsh_history
 export HISTFILESIZE=1000000000
 export HISTSIZE=1000000000
+
+#set java version use /usr/libexec/java_home -V to check what all versions are available
+export JAVA_HOME=`/usr/libexec/java_home -v 17`
